@@ -1,0 +1,4 @@
+MiniMDB
+=======
+
+Ruby exercise
