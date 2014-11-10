@@ -1,0 +1,10 @@
+<div>
+	<ul>
+	<% search.movies.to_a[0..8].each do |film| %>
+		<li>
+			<%= film.title %> - <%= film.rating %><br>
+			<img src="<%= film.poster %>" />
+		</li>
+	<% end %>
+	</ul>
+</div>
